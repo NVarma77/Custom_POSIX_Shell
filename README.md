@@ -36,11 +36,11 @@ MySH is a custom shell implementation inspired by Unix/Linux shells like Bash or
 ### Interactive Mode
 Run the shell interactively:
 
-'./mysh'
+`./mysh`
 
 ### Batch Mode
 Execute commands from a file:
-'./mysh <command_file>'
+`./mysh <command_file>`
 
 ## Testing
 
@@ -66,7 +66,7 @@ The following test cases are provided to validate the shell's functionality:
 
 ### Running Tests
 Use the provided test scripts to validate the shell's behavior under different scenarios:
-'./test_script.sh'
+`./test_script.sh`
 
 ## Implementation Highlights
 
