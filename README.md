@@ -35,17 +35,12 @@ MySH is a custom shell implementation inspired by Unix/Linux shells like Bash or
 
 ### Interactive Mode
 Run the shell interactively:
-'''bash
-./mysh
-'''bash
 
+'./mysh'
 
 ### Batch Mode
 Execute commands from a file:
-./mysh <command_file>
-
-markdown
-Copy code
+'./mysh <command_file>'
 
 ## Testing
 
@@ -71,13 +66,9 @@ The following test cases are provided to validate the shell's functionality:
 
 ### Running Tests
 Use the provided test scripts to validate the shell's behavior under different scenarios:
-./test_script.sh
-
-markdown
-Copy code
+'./test_script.sh'
 
 ## Implementation Highlights
 
 - **POSIX Compliance**: Implements POSIX features like unbuffered I/O, `dup2()`, and `pipe()`.
 - **Dynamic Parsing**: Handles command parsing and tokenization dynamically for flexibility.
-- **Lightweight Design**: Compact, efficient codebase with focus on simplicity and clarity.
